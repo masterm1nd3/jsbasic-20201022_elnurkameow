@@ -4,6 +4,9 @@
  * @param {number} maxlength
  * @returns {string}
  */
-function truncate(str, maxlength) {
-  // ваш код...
+function truencate(str, maxlenghth) {
+        if (str.length > maxlenghth) {
+                return (str.substring(0, maxlenghth-1) + `...`);
+        }
+        return str;
 }
